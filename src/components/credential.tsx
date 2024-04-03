@@ -92,7 +92,7 @@ export function Credential({ data, onChangeAvatar, onExpandQRCode }: Props) {
           {data.name}
         </Text>
 
-        <Text className="font-regular text-base text-zinc-300 mb-4">
+        <Text className="font-regular text-base text-zinc-400 mb-4">
           {data.email}
         </Text>
 
@@ -103,7 +103,7 @@ export function Credential({ data, onChangeAvatar, onExpandQRCode }: Props) {
           className="mt-6"
           onPress={onExpandQRCode}
         >
-          <Text className="font-body text-orange-500 text-sm">
+          <Text className="font-body text-orange-400 text-sm">
             Ampliar QRCode
           </Text>
         </TouchableOpacity>

@@ -103,8 +103,8 @@ export default function Ticket() {
           Compartilhar credencial
         </Text>
 
-        <Text className="text-white font-regular text-base mt-1 mb-6">
-          Mostre ao mundo que você vai participar do evento{" "}
+        <Text className="text-zinc-400 font-regular text-base mt-1 mb-6">
+          Inscrição realizada con sucesso, você vai participar do evento{" "}
           {badgeStore.data.eventTitle}!
         </Text>
 
@@ -128,7 +128,7 @@ export default function Ticket() {
             onPress={() => setExpandQRCode(false)}
           >
             <QRCode value="teste" size={300} />
-            <Text className="font-body text-orange-500 text-sm mt-10 text-center">
+            <Text className="font-body text-orange-400 text-sm mt-10 text-center">
               Fechar QRCode
             </Text>
           </TouchableOpacity>
